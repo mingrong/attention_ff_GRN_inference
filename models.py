@@ -18,7 +18,7 @@ def seed_everything(seed):
     torch.cuda.manual_seed(seed)
     torch.backends.cudnn.deterministic = True
 
-seed_everything(108) 
+seed_everything(101) 
 
 class fusion(nn.Module):
     def __init__(self, infeats,hid_feat,out_feat, reduction=16):
